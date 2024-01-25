@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.square {
+  text-align: center;
+  border: solid 1px black;
+}
+
+.valid {
+  width: 40px;
+  height: 40px;
+}
+
+.bomb {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
