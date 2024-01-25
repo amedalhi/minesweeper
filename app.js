@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const isRightEdge = i % width === 0 - 1;
 
       if (squares[i].classList.contains("valid")) {
-        if (i > 0 && !isLeftEdge )
+        // if (i > 0 && !isLeftEdge )
       }
     }
   };
